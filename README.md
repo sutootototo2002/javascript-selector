@@ -8,6 +8,8 @@ javascript 选择器学习
 
 **css3选择器：**
 
+No·1
+
     选择器                    例子                  例子描述                                       CSS
     
     .class                   .intro                选择class='intro'的所有元素                      1
@@ -25,3 +27,42 @@ javascript 选择器学习
 
      <div class='intro'>box</div>
 
+No·2
+
+     选择器                    例子                  例子描述                                       CSS
+    
+     #id                      #firstname           选择id='firstname'的所有元素                      1
+
+
+例子：选择id='firstname'的所有元素 (id只能选最先出现的一个)
+
+
+      02.html
+
+     <style type='text/css'>
+        #firstname{width:200px;height:200px;background-color:green;}
+     </style>
+
+     <div id='firstname'>box</div>
+
+
+No·3
+
+    选择器                    例子                  例子描述                                       CSS
+    
+    *                         *                   选择所有元素                                     2
+
+
+例子：选择所有的元素
+
+     
+
+      03.html
+
+     <style type='text/css'>
+        *{margin:0;padding:0;}
+        .div1{position:absoulte;top:0;left:0;bottom:0;right:0;width:100%;height:100%;border:1px solid red;}
+     </style>
+        <div class='div1'></div>
+
+     

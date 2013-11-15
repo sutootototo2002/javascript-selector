@@ -65,4 +65,136 @@ No·3
      </style>
         <div class='div1'></div>
 
+
+
+No·4
+
+    选择器                    例子                  例子描述                                       CSS
+    
+    element                  p                     选择所有p元素                                   1
+
+
+例子：选择所有<p>元素
+
      
+
+      04.html
+
+     <style type='text/css'>
+        p{ color:red;}
+     </style>
+
+       <p>p元素1</p> 
+
+       <p>p元素2</p>
+
+       <p>p元素3</p>
+
+
+No·5
+
+    选择器                    例子                  例子描述                                       CSS
+    
+    element,element          div,p                选择所有div和p元素                                1
+
+
+例子：选择所有<div>和<p>元素
+
+     
+
+      05.html
+
+     <style type='text/css'>
+
+       div,p{ color:red;}
+
+     </style>
+
+       <p>p元素1</p> 
+
+       <div>div元素1</div>
+
+       <p>p元素2</p>
+
+       <div>div元素2</div>
+
+       <p>p元素3</p>
+
+No·6
+
+    选择器                    例子                  例子描述                                       CSS
+    
+    element element          div p                选择所有div元素内部p元素                          1
+
+
+例子：选择所有<div>元素内部<p>元素
+
+     
+
+      06.html
+
+     <style type='text/css'>
+
+       p{color:green;}
+
+       div p{ color:red;}
+
+     </style>
+
+       <p>p元素1</p> 
+
+       <div>
+
+         <p>p元素2</p>
+
+       </div>
+
+       
+       <div>div元素2</div>
+
+       <p>p元素3</p>
+
+
+No·7
+
+    选择器                    例子                  例子描述                                       CSS
+    
+    element>element          div>p                选择父元素为div元素的所有p元素                     2
+
+
+例子：选择父元素为 <div> 元素的所有 <p> 元素。
+
+     
+
+      07.html
+
+     <style type='text/css'>
+
+       p{color:green;}
+
+       div>p{ color:red;}
+
+     </style>
+
+       <p>p元素1</p> 
+
+       <div>
+
+         <p>p元素2</p>
+
+       </div>
+
+       <div>
+
+         <p>p元素2</p>
+
+       </div>
+
+       
+       <div>div元素2</div>
+
+       <p>p元素3</p>
+  
+       
+
+   

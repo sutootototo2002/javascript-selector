@@ -4,7 +4,7 @@ javascript-selector
 javascript 选择器学习
 
 今天开始我要研究一下javascript选择器，javascript选取一组或一个DOM元素。这就是选择器的作用。
-初学javascript真的是一头雾水，不知从哪看起，现在先分析一下css选择器和jqueryde的sizzle选择器吧。
+初学javascript真的是一头雾水，不知从哪看起，现在先分析一下css选择器和jquery的的sizzle选择器吧。
 
 **css3选择器：**
 

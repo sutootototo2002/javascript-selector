@@ -194,7 +194,168 @@ No·7
        <div>div元素2</div>
 
        <p>p元素3</p>
-  
-       
 
-   
+
+No·8
+
+    选择器                    例子                  例子描述                                       CSS
+    
+    element+element          div+p                选择紧接在div元素的p元素                          2
+
+
+例子：选择紧接在`<div>`元素的`<p>`元素 
+
+     
+
+      08.html
+
+     <style type='text/css'>
+
+       p{color:green;}
+
+       div+p{ color:red;}
+
+     </style>
+
+       <p>p元素1</p> 
+
+       <div>
+
+         <p>p元素2</p>
+
+       </div>
+
+       <div>
+
+         <p>p元素2</p>
+
+       </div>
+
+       
+       <div>div元素2</div>
+
+       <p>p元素3</p>
+  
+
+     
+
+No·9
+
+    选择器                    例子                  例子描述                                       CSS
+    
+    [attribute]             [target]               选择带有target属性的所有元素                         2
+
+
+例子：选择带有target属性的所有元素
+
+     
+
+      09.html
+
+     <style type='text/css'>
+
+       a[target]{color:yellow}
+
+     </style>
+
+       <a herf="javascript:;" target='aaa'>p元素1</p> 
+
+       <a herf="javascript:;" target='bbb'>
+
+         p元素2
+
+       </div>
+
+       <div>
+
+         <p>p元素2</p>
+
+       </div>
+
+       
+       <div>div元素2</div>
+
+       <p>p元素3</p>
+
+
+
+
+No.10
+
+    选择器                    例子                  例子描述                                       CSS
+    
+    [attribute~=value]        [target=_blank]       选择target='_blank'的所有元素                    2
+
+
+例子：选择带有`target='_blank'`属性的所有元素
+
+     
+
+      10.html
+
+     <style type='text/css'>
+
+       [target]{color:yellow}
+
+     </style>
+
+       <p target='aaa'>p元素1</p> 
+
+       <div target='bbb'>
+
+         <p>p元素2</p>
+
+       </div>
+
+       <div>
+
+         <p>p元素2</p>
+
+       </div>
+
+       
+       <div>div元素2</div>
+
+       <p>p元素3</p>
+
+
+
+
+
+No.11
+
+    选择器                    例子                  例子描述                                       CSS
+    
+    [attribute|=value]        [lang|=en]       选择lang属性值以"en"开头的所有元素                    2
+
+
+例子：选择lang属性值以"en"开头的所有元素     
+
+     
+
+      11.html
+
+     <style type='text/css'>
+
+       [lang|=en]{color:blue}
+
+     </style>
+
+       <p target='aaa'>p元素1</p> 
+
+       <div target='bbb'>
+
+         <p lang='en'>p元素2</p>
+
+       </div>
+
+       <div>
+
+         <p>p元素2</p>
+
+       </div>
+
+       
+       <div>div元素2</div>
+
+       <p>p元素3</p>
